@@ -67,5 +67,3 @@ The data pipeline (`train_model.py`) was modified significantly for Transfer Lea
 | **Final Test Loss** | **0.7432** |
 | **Final Test Accuracy** | **0.9348** |
 
-### 6.2 Classification Report
---- Classification Report ---                precision    recall  f1-score   support      airplane       0.81      0.87      0.84      1000    automobile       0.93      0.92      0.92      1000          bird       0.81      0.71      0.76      1000           cat       0.69      0.66      0.67      1000          deer       0.79      0.82      0.81      1000           dog       0.75      0.75      0.75      1000          frog       0.82      0.90      0.86      1000         horse       0.86      0.84      0.85      1000          ship       0.91      0.90      0.90      1000         truck       0.90      0.89      0.90      1000     macro avg       0.83      0.83      0.83     10000  weighted avg       0.83      0.83      0.83     10000
