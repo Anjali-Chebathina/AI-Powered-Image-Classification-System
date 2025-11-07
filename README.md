@@ -67,3 +67,6 @@ The data pipeline (`train_model.py`) was modified significantly for Transfer Lea
 | **Final Test Loss** | **0.7432** |
 | **Final Test Accuracy** | **0.9348** |
 
+---
+### Contact
+Mail: anjalichebathina@gmail.com
