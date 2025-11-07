@@ -12,7 +12,7 @@ The goal was to build an advanced AI model using **Transfer Learning** (MobileNe
 
 ---
 
-## 2. Model Architecture (Task 1: Transfer Learning)
+## 2. Model Architecture 
 
 ### 2.1 Model Choice: MobileNetV2
 **MobileNetV2** was chosen as the base model. It is a powerful, lightweight architecture pre-trained on the massive **ImageNet** dataset. This allows us to leverage its learned features for our (relatively small) CIFAR-10 dataset, leading to faster training and higher accuracy.
@@ -38,15 +38,14 @@ The data pipeline (`train_model.py`) was modified significantly for Transfer Lea
 
 ---
 
-## 4. Model Training & Optimization (Task 3: Save Model)
-
+## 4. Model Training & Optimization 
 * **Optimizer:** `Adam` optimizer was used.
 * **Optimization:** **Early Stopping** (`patience=10`) was implemented. This monitored the validation loss and stopped training automatically when the model ceased to improve, preventing wasted time.
 * **Saving:** A `ModelCheckpoint` callback was used to **automatically save only the best version** of the model (based on validation loss) to `deliverables/model_transfer_learning.h5`.
 
 ---
 
-## 5. UI and Deployment (Tasks 2 & 4)
+## 5. UI and Deployment
 
 * **Mini UI (Streamlit):** A web application was built using Streamlit (`app.py`).
 * **Model Loading (Task 3):** The app **loads the saved `model_transfer_learning.h5`** file on startup.
