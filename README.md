@@ -55,8 +55,6 @@ The data pipeline (`train_model.py`) was modified significantly for Transfer Lea
 ---
 
 ## 6. Final Test Results
-<img width="1600" height="600" alt="accuracy_loss_curves" src="https://github.com/user-attachments/assets/7463c5f6-7aae-4f09-86b6-1134e97e50fd" />
-<img width="1200" height="1200" alt="sample_predictions" src="https://github.com/user-attachments/assets/b3a2badd-5fd0-4cde-aea9-29dbf634b471" />
 
 <img width="1912" height="908" alt="Screenshot 2025-11-07 152931" src="https://github.com/user-attachments/assets/2f321dc5-4e0e-4482-9b0f-cdfd9144c303" />
 
